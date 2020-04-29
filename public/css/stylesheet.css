@@ -84,3 +84,7 @@
 .btn-news.btn-contests a:hover {
     color: #000;
 }
+.inner,.fauxcrop
+{
+    border-radius: 15px;
+}

@@ -74,6 +74,7 @@ fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=16ca4ac8ea1245d4a4
     document.getElementById('block12i').src= data.articles[11].urlToImage
     document.getElementById('block12u').href = data.articles[11].url
     document.getElementById('block12u1').href = data.articles[11].url
+    
 
 
 }).catch((e)=>{console.log(e)})
